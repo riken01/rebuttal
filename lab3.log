@@ -1,0 +1,372 @@
+[14:19:31.155] ℹ️ [openclaw] [WS-RECV] Raw message frame, size: 790 characters
+[14:19:31.157] ℹ️ [openclaw] [WS-RECV] Text: 帮我运行一***钟后结束。
+[14:19:31.158] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [MONITOR-HANDLER] ####### messageHandler triggered: sessionId=1427f60f9db140458ffc0961da4decd3, messageId=fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0 #######
+[14:19:31.160] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 🔒 Locked taskId for first message
+[14:19:31.161] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 📌 Extracted push_id from user message
+[14:19:31.163] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 📱 Extracted deviceType from user message: phone
+[14:19:31.164] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | xy: resolved route accountId=default, sessionKey=agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:19:31.166] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [STATUS] Sending initial status update for session 1427f60f9db140458ffc0961da4decd3
+[14:19:31.167] ℹ️ [openclaw] [A2A_STATUS] 📤 Sending A2A status-update:
+[14:19:31.168] ℹ️ [openclaw] [A2A_STATUS]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0
+[14:19:31.170] ℹ️ [openclaw] [A2A_STATUS]   - text: "任务正在处理中，请稍候~"
+[14:19:31.172] ℹ️ [openclaw] Downloaded files: []
+[14:19:31.174] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCHER] 🎯 Creating reply dispatcher
+[14:19:31.175] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCHER]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0
+[14:19:31.177] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DISPATCHER-CREATE] ******* Creating dispatcher *******
+[14:19:31.178] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DISPATCHER-CREATE]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0
+[14:19:31.180] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DISPATCHER-CREATE]   - isSteerFollower: false
+[14:19:31.181] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [STATUS INTERVAL] Starting interval for session 1427f60f9db140458ffc0961da4decd3
+[14:19:31.182] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCHER] ✅ Status interval started for first message
+[14:19:31.184] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH] ⏳ withReplyDispatcher starting, sessionKey=agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:19:31.185] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH] ⏳ dispatchReplyFromConfig starting...
+[14:19:31.187] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - sessionKey: agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:19:31.188] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - provider: xiaoyi-channel
+[14:19:31.189] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - surface: xiaoyi-channel
+[14:19:31.191] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - from: 1427f60f9db140458ffc0961da4decd3
+[14:19:31.192] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - body length: 132
+[14:19:31.683] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [REPLY START] Reply started for session 1427f60f9db140458ffc0961da4decd3, taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0, isSteerFollower=false
+[14:19:33.376] ℹ️ [openclaw] [skill-retriever] Received response, status: 200
+[14:19:33.381] ℹ️ [openclaw] [skill-retriever] [DEBUG] After filtering uninstalled: 2, ids: execution-validator-skill, smart-followups
+[14:19:33.382] ℹ️ [openclaw] [skill-retriever] [RESULT] Found 2 skills, building context...
+[14:19:33.395] ℹ️ [openclaw] [xiaoyiprovider] input messages count: 97
+[14:19:33.397] ℹ️ [openclaw] [xiaoyiprovider] system prompt length: 55065
+[14:19:33.398] ℹ️ [openclaw] [xiaoyiprovider] system prompt optimized: 55065 -> 53300
+[14:19:36.543] ℹ️ [openclaw] [xiaoyiprovider] first content event received, switching to streaming mode
+[14:19:36.579] ℹ️ [openclaw] [xiaoyiprovider] stream completed, usage: input=41558 output=51
+[14:19:36.590] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [TOOL START] Tool: sessions_spawn, phase: start, taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0
+[14:19:36.592] ℹ️ [openclaw] [A2A_STATUS] 📤 Sending A2A status-update:
+[14:19:36.594] ℹ️ [openclaw] [A2A_STATUS]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0
+[14:19:36.595] ℹ️ [openclaw] [A2A_STATUS]   - text: "正在使用工具: sessions_spawn..."
+[14:19:36.597] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [TOOL START] ✅ Sent status update for tool start: sessions_spawn
+[14:19:36.695] ℹ️ [gateway/ws] {"subsystem":"gateway/ws"} | ⇄ res ✓ sessions.patch 60ms conn=de3ef16b…f8c0 id=17e1561a…e57d
+[14:19:36.838] ℹ️ [gateway/ws] {"subsystem":"gateway/ws"} | ⇄ res ✓ sessions.patch 57ms conn=59912862…386e id=c78ebe46…108b
+[14:19:36.924] ℹ️ [gateway/ws] {"subsystem":"gateway/ws"} | ⇄ res ✓ agent 63ms runId=f3be6a37-957f-40f4-9e18-4e70db552fbc conn=e4a9c08c…dbf4 id=93b4a944…713a
+[14:19:36.954] ℹ️ [openclaw] [xiaoyiprovider] input messages count: 99
+[14:19:36.955] ℹ️ [openclaw] [xiaoyiprovider] system prompt length: 55065
+[14:19:36.957] ℹ️ [openclaw] [xiaoyiprovider] system prompt optimized: 55065 -> 53300
+[14:19:37.685] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [REPLY START] Reply started for session 1427f60f9db140458ffc0961da4decd3, taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0, isSteerFollower=false
+[14:19:38.685] ℹ️ [openclaw] [xiaoyiprovider] first content event received, switching to streaming mode
+[14:19:39.552] ℹ️ [openclaw] [xiaoyiprovider] input messages count: 1
+[14:19:39.554] ℹ️ [openclaw] [xiaoyiprovider] system prompt length: 48580
+[14:19:39.556] ℹ️ [openclaw] [xiaoyiprovider] system prompt optimized: 48580 -> 47590
+[14:19:39.996] ℹ️ [openclaw] [xiaoyiprovider] stream completed, usage: input=41790 output=38
+[14:19:40.008] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [TOOL START] Tool: sessions_yield, phase: start, taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0
+[14:19:40.010] ℹ️ [openclaw] [A2A_STATUS] 📤 Sending A2A status-update:
+[14:19:40.011] ℹ️ [openclaw] [A2A_STATUS]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0
+[14:19:40.013] ℹ️ [openclaw] [A2A_STATUS]   - text: "正在使用工具: sessions_yield..."
+[14:19:40.015] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [TOOL START] ✅ Sent status update for tool start: sessions_yield
+[14:19:40.181] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_CLEANUP] Reply cleanup, taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0, isSteerFollower=false
+[14:19:40.183] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DELIVER] sessionId=1427f60f9db140458ffc0961da4decd3, taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0, info.kind=final, text.length=31
+[14:19:40.185] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DELIVER ACCUMULATE] 🔑 hasSentResponse SET TO TRUE! text.length=31, accumulatedText.length=31
+[14:19:40.186] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DELIVER ACCUMULATE] 🔑 This dispatcher will send final response when idle
+[14:19:40.188] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH] ✅ dispatchReplyFromConfig returned
+[14:19:40.190] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - result: {"queuedFinal":true,"counts":{"tool":0,"block":0,"final":1}}
+[14:19:40.191] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DELIVER] ✅ Sent deliver text as reasoningText update
+[14:19:40.192] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] Reply idle
+[14:19:40.194] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - sessionId: 1427f60f9db140458ffc0961da4decd3
+[14:19:40.195] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0
+[14:19:40.197] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - isSteerFollower: false
+[14:19:40.198] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - hasSentResponse: true
+[14:19:40.199] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - finalSent: false
+[14:19:40.201] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ NORMAL COMPLETION: hasSentResponse=true, finalSent=false, isSteerFollower=false
+[14:19:40.202] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ NORMAL COMPLETION - accumulatedText.length=31
+[14:19:40.204] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ Sending accumulated text, length=31
+[14:19:40.205] ℹ️ [openclaw] [A2A_STATUS] 📤 Sending A2A status-update:
+[14:19:40.207] ℹ️ [openclaw] [A2A_STATUS]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0
+[14:19:40.208] ℹ️ [openclaw] [A2A_STATUS]   - text: "任务处理已完成~"
+[14:19:40.209] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ Sent completion status update
+[14:19:40.211] ℹ️ [openclaw] [A2A_RESPONSE] 📤 Sending A2A artifact-update response: taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0
+[14:19:40.212] ℹ️ [openclaw] [A2A_RESPONSE]   - append: false
+[14:19:40.214] ℹ️ [openclaw] [A2A_RESPONSE]   - final: true
+[14:19:40.215] ℹ️ [openclaw] [A2A_RESPONSE]   - text: 子Agen***自动通知。
+[14:19:40.217] ℹ️ [openclaw] [A2A_RESPONSE]   - files count: 0
+[14:19:40.218] ℹ️ [openclaw] [A2A_RESPONSE] ✅ Message sent successfully
+[14:19:40.219] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 🏁 onSettled called for session: agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:19:40.221] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT]   - isSecondMessage: false
+[14:19:40.222] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 🔓 Unlocked taskId (first message completed)
+[14:19:40.223] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] ✅ Cleanup completed
+[14:19:40.225] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ Sent final response with taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&174&513c&0
+[14:19:40.226] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [STATUS INTERVAL] Stopping interval for session 1427f60f9db140458ffc0961da4decd3
+[14:19:40.228] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] ✅ Dispatcher completed for session: 1427f60f9db140458ffc0961da4decd3
+[14:19:40.229] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | xy: dispatch complete (session=1427f60f9db140458ffc0961da4decd3)
+[14:19:42.691] ℹ️ [openclaw] [xiaoyiprovider] first content event received, switching to streaming mode
+[14:19:42.856] ℹ️ [openclaw] [xiaoyiprovider] stream completed, usage: input=21288 output=18
+[14:19:45.311] ℹ️ [openclaw] [WS-RECV] Raw message frame, size: 771 characters
+[14:19:45.313] ℹ️ [openclaw] [WS-RECV] Text: 你***好
+[14:19:45.314] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [MONITOR-HANDLER] ####### messageHandler triggered: sessionId=1427f60f9db140458ffc0961da4decd3, messageId=fcd20316-fa64-4308-80f1-eff9a26f4c36&175&daa3&0 #######
+[14:19:45.316] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 🔒 Locked taskId for first message
+[14:19:45.317] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 📌 Extracted push_id from user message
+[14:19:45.319] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 📱 Extracted deviceType from user message: phone
+[14:19:45.320] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | xy: resolved route accountId=default, sessionKey=agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:19:45.321] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [STATUS] Sending initial status update for session 1427f60f9db140458ffc0961da4decd3
+[14:19:45.323] ℹ️ [openclaw] [A2A_STATUS] 📤 Sending A2A status-update:
+[14:19:45.324] ℹ️ [openclaw] [A2A_STATUS]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&175&daa3&0
+[14:19:45.325] ℹ️ [openclaw] [A2A_STATUS]   - text: "任务正在处理中，请稍候~"
+[14:19:45.327] ℹ️ [openclaw] Downloaded files: []
+[14:19:45.328] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCHER] 🎯 Creating reply dispatcher
+[14:19:45.330] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCHER]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&175&daa3&0
+[14:19:45.331] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DISPATCHER-CREATE] ******* Creating dispatcher *******
+[14:19:45.332] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DISPATCHER-CREATE]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&175&daa3&0
+[14:19:45.333] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DISPATCHER-CREATE]   - isSteerFollower: false
+[14:19:45.335] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [STATUS INTERVAL] Starting interval for session 1427f60f9db140458ffc0961da4decd3
+[14:19:45.336] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCHER] ✅ Status interval started for first message
+[14:19:45.337] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH] ⏳ withReplyDispatcher starting, sessionKey=agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:19:45.339] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH] ⏳ dispatchReplyFromConfig starting...
+[14:19:45.341] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - sessionKey: agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:19:45.342] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - provider: xiaoyi-channel
+[14:19:45.344] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - surface: xiaoyi-channel
+[14:19:45.345] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - from: 1427f60f9db140458ffc0961da4decd3
+[14:19:45.347] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - body length: 113
+[14:19:45.633] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [REPLY START] Reply started for session 1427f60f9db140458ffc0961da4decd3, taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&175&daa3&0, isSteerFollower=false
+[14:19:47.409] ℹ️ [openclaw] [skill-retriever] Received response, status: 200
+[14:19:47.412] ℹ️ [openclaw] [skill-retriever] [DEBUG] All top 2 skills are installed, returning null
+[14:19:47.426] ℹ️ [openclaw] [xiaoyiprovider] input messages count: 103
+[14:19:47.428] ℹ️ [openclaw] [xiaoyiprovider] system prompt length: 55065
+[14:19:47.429] ℹ️ [openclaw] [xiaoyiprovider] system prompt optimized: 55065 -> 53300
+[14:19:49.762] ℹ️ [openclaw] [xiaoyiprovider] first content event received, switching to streaming mode
+[14:19:50.618] ℹ️ [openclaw] [xiaoyiprovider] stream completed, usage: input=42102 output=19
+[14:19:50.760] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_CLEANUP] Reply cleanup, taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&175&daa3&0, isSteerFollower=false
+[14:19:50.762] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DELIVER] sessionId=1427f60f9db140458ffc0961da4decd3, taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&175&daa3&0, info.kind=final, text.length=34
+[14:19:50.764] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DELIVER ACCUMULATE] 🔑 hasSentResponse SET TO TRUE! text.length=34, accumulatedText.length=34
+[14:19:50.765] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DELIVER ACCUMULATE] 🔑 This dispatcher will send final response when idle
+[14:19:50.767] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH] ✅ dispatchReplyFromConfig returned
+[14:19:50.768] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - result: {"queuedFinal":true,"counts":{"tool":0,"block":0,"final":1}}
+[14:19:50.769] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DELIVER] ✅ Sent deliver text as reasoningText update
+[14:19:50.771] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] Reply idle
+[14:19:50.772] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - sessionId: 1427f60f9db140458ffc0961da4decd3
+[14:19:50.773] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&175&daa3&0
+[14:19:50.775] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - isSteerFollower: false
+[14:19:50.776] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - hasSentResponse: true
+[14:19:50.777] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - finalSent: false
+[14:19:50.779] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ NORMAL COMPLETION: hasSentResponse=true, finalSent=false, isSteerFollower=false
+[14:19:50.780] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ NORMAL COMPLETION - accumulatedText.length=34
+[14:19:50.781] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ Sending accumulated text, length=34
+[14:19:50.783] ℹ️ [openclaw] [A2A_STATUS] 📤 Sending A2A status-update:
+[14:19:50.784] ℹ️ [openclaw] [A2A_STATUS]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&175&daa3&0
+[14:19:50.786] ℹ️ [openclaw] [A2A_STATUS]   - text: "任务处理已完成~"
+[14:19:50.787] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ Sent completion status update
+[14:19:50.788] ℹ️ [openclaw] [A2A_RESPONSE] 📤 Sending A2A artifact-update response: taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&175&daa3&0
+[14:19:50.790] ℹ️ [openclaw] [A2A_RESPONSE]   - append: false
+[14:19:50.791] ℹ️ [openclaw] [A2A_RESPONSE]   - final: true
+[14:19:50.792] ℹ️ [openclaw] [A2A_RESPONSE]   - text: 你好！子A***帮忙的吗？
+[14:19:50.794] ℹ️ [openclaw] [A2A_RESPONSE]   - files count: 0
+[14:19:50.795] ℹ️ [openclaw] [A2A_RESPONSE] ✅ Message sent successfully
+[14:19:50.796] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 🏁 onSettled called for session: agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:19:50.797] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT]   - isSecondMessage: false
+[14:19:50.799] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 🔓 Unlocked taskId (first message completed)
+[14:19:50.800] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] ✅ Cleanup completed
+[14:19:50.801] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ Sent final response with taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&175&daa3&0
+[14:19:50.803] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [STATUS INTERVAL] Stopping interval for session 1427f60f9db140458ffc0961da4decd3
+[14:19:50.804] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] ✅ Dispatcher completed for session: 1427f60f9db140458ffc0961da4decd3
+[14:19:50.805] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | xy: dispatch complete (session=1427f60f9db140458ffc0961da4decd3)
+[14:19:52.932] ℹ️ [openclaw] [xiaoyiprovider] input messages count: 3
+[14:19:52.934] ℹ️ [openclaw] [xiaoyiprovider] system prompt length: 48580
+[14:19:52.935] ℹ️ [openclaw] [xiaoyiprovider] system prompt optimized: 48580 -> 47590
+[14:19:55.161] ℹ️ [openclaw] [WS-RECV] Raw message frame, size: 771 characters
+[14:19:55.163] ℹ️ [openclaw] [WS-RECV] Text: 好***的
+[14:19:55.164] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [MONITOR-HANDLER] ####### messageHandler triggered: sessionId=1427f60f9db140458ffc0961da4decd3, messageId=fcd20316-fa64-4308-80f1-eff9a26f4c36&176&da2e&0 #######
+[14:19:55.166] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 🔒 Locked taskId for first message
+[14:19:55.167] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 📌 Extracted push_id from user message
+[14:19:55.169] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 📱 Extracted deviceType from user message: phone
+[14:19:55.170] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | xy: resolved route accountId=default, sessionKey=agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:19:55.172] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [STATUS] Sending initial status update for session 1427f60f9db140458ffc0961da4decd3
+[14:19:55.173] ℹ️ [openclaw] [A2A_STATUS] 📤 Sending A2A status-update:
+[14:19:55.175] ℹ️ [openclaw] [A2A_STATUS]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&176&da2e&0
+[14:19:55.176] ℹ️ [openclaw] [A2A_STATUS]   - text: "任务正在处理中，请稍候~"
+[14:19:55.178] ℹ️ [openclaw] Downloaded files: []
+[14:19:55.180] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCHER] 🎯 Creating reply dispatcher
+[14:19:55.181] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCHER]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&176&da2e&0
+[14:19:55.182] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DISPATCHER-CREATE] ******* Creating dispatcher *******
+[14:19:55.184] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DISPATCHER-CREATE]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&176&da2e&0
+[14:19:55.185] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DISPATCHER-CREATE]   - isSteerFollower: false
+[14:19:55.186] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [STATUS INTERVAL] Starting interval for session 1427f60f9db140458ffc0961da4decd3
+[14:19:55.188] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCHER] ✅ Status interval started for first message
+[14:19:55.189] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH] ⏳ withReplyDispatcher starting, sessionKey=agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:19:55.191] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH] ⏳ dispatchReplyFromConfig starting...
+[14:19:55.192] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - sessionKey: agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:19:55.193] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - provider: xiaoyi-channel
+[14:19:55.195] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - surface: xiaoyi-channel
+[14:19:55.196] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - from: 1427f60f9db140458ffc0961da4decd3
+[14:19:55.197] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - body length: 113
+[14:19:55.484] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [REPLY START] Reply started for session 1427f60f9db140458ffc0961da4decd3, taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&176&da2e&0, isSteerFollower=false
+[14:19:57.138] ℹ️ [openclaw] [xiaoyiprovider] first content event received, switching to streaming mode
+[14:19:57.141] ℹ️ [openclaw] [xiaoyiprovider] stream completed, usage: input=21343 output=26
+[14:19:57.188] ℹ️ [openclaw] [xiaoyiprovider] input messages count: 5
+[14:19:57.189] ℹ️ [openclaw] [xiaoyiprovider] system prompt length: 48580
+[14:19:57.191] ℹ️ [openclaw] [xiaoyiprovider] system prompt optimized: 48580 -> 47590
+[14:19:57.330] ℹ️ [openclaw] [skill-retriever] Received response, status: 200
+[14:19:57.334] ℹ️ [openclaw] [skill-retriever] [DEBUG] After filtering uninstalled: 2, ids: testlwynew, metabase-metabase-docs-write
+[14:19:57.336] ℹ️ [openclaw] [skill-retriever] [RESULT] Found 2 skills, building context...
+[14:19:57.350] ℹ️ [openclaw] [xiaoyiprovider] input messages count: 105
+[14:19:57.351] ℹ️ [openclaw] [xiaoyiprovider] system prompt length: 55065
+[14:19:57.353] ℹ️ [openclaw] [xiaoyiprovider] system prompt optimized: 55065 -> 53300
+[14:20:01.488] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [REPLY START] Reply started for session 1427f60f9db140458ffc0961da4decd3, taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&176&da2e&0, isSteerFollower=false
+[14:20:04.942] ℹ️ [openclaw] [xiaoyiprovider] first content event received, switching to streaming mode
+[14:20:05.505] ℹ️ [openclaw] [xiaoyiprovider] first content event received, switching to streaming mode
+[14:20:06.007] ℹ️ [openclaw] [xiaoyiprovider] stream completed, usage: input=21383 output=26
+[14:20:06.025] ℹ️ [gateway/ws] {"subsystem":"gateway/ws"} | ⇄ res ✓ agent.wait 28346ms conn=599a849b…fae5 id=7d58f7d9…7272
+[14:20:06.407] ℹ️ [openclaw] ✅ **任务完成**
+
+已成功等待10秒并输出"任务完成"。这是一个简单的测试任务，执行顺利。
+[14:20:06.603] ℹ️ [openclaw] [xiaoyiprovider] stream completed, usage: input=42669 output=25
+[14:20:06.811] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_CLEANUP] Reply cleanup, taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&176&da2e&0, isSteerFollower=false
+[14:20:06.813] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DELIVER] sessionId=1427f60f9db140458ffc0961da4decd3, taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&176&da2e&0, info.kind=final, text.length=43
+[14:20:06.815] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DELIVER ACCUMULATE] 🔑 hasSentResponse SET TO TRUE! text.length=43, accumulatedText.length=43
+[14:20:06.816] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DELIVER ACCUMULATE] 🔑 This dispatcher will send final response when idle
+[14:20:06.818] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH] ✅ dispatchReplyFromConfig returned
+[14:20:06.820] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - result: {"queuedFinal":true,"counts":{"tool":0,"block":0,"final":1}}
+[14:20:06.821] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DELIVER] ✅ Sent deliver text as reasoningText update
+[14:20:06.823] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] Reply idle
+[14:20:06.824] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - sessionId: 1427f60f9db140458ffc0961da4decd3
+[14:20:06.826] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&176&da2e&0
+[14:20:06.827] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - isSteerFollower: false
+[14:20:06.829] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - hasSentResponse: true
+[14:20:06.830] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - finalSent: false
+[14:20:06.831] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ NORMAL COMPLETION: hasSentResponse=true, finalSent=false, isSteerFollower=false
+[14:20:06.833] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ NORMAL COMPLETION - accumulatedText.length=43
+[14:20:06.834] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ Sending accumulated text, length=43
+[14:20:06.836] ℹ️ [openclaw] [A2A_STATUS] 📤 Sending A2A status-update:
+[14:20:06.837] ℹ️ [openclaw] [A2A_STATUS]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&176&da2e&0
+[14:20:06.839] ℹ️ [openclaw] [A2A_STATUS]   - text: "任务处理已完成~"
+[14:20:06.840] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ Sent completion status update
+[14:20:06.842] ℹ️ [openclaw] [A2A_RESPONSE] 📤 Sending A2A artifact-update response: taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&176&da2e&0
+[14:20:06.843] ℹ️ [openclaw] [A2A_RESPONSE]   - append: false
+[14:20:06.844] ℹ️ [openclaw] [A2A_RESPONSE]   - final: true
+[14:20:06.846] ℹ️ [openclaw] [A2A_RESPONSE]   - text: 好的！😊***他问题吗？
+[14:20:06.847] ℹ️ [openclaw] [A2A_RESPONSE]   - files count: 0
+[14:20:06.848] ℹ️ [openclaw] [A2A_RESPONSE] ✅ Message sent successfully
+[14:20:06.850] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 🏁 onSettled called for session: agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:20:06.851] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT]   - isSecondMessage: false
+[14:20:06.853] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 🔓 Unlocked taskId (first message completed)
+[14:20:06.854] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] ✅ Cleanup completed
+[14:20:06.856] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ Sent final response with taskId=fcd20316-fa64-4308-80f1-eff9a26f4c36&176&da2e&0
+[14:20:06.857] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [STATUS INTERVAL] Stopping interval for session 1427f60f9db140458ffc0961da4decd3
+[14:20:06.858] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] ✅ Dispatcher completed for session: 1427f60f9db140458ffc0961da4decd3
+[14:20:06.860] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | xy: dispatch complete (session=1427f60f9db140458ffc0961da4decd3)
+[14:20:06.920] ℹ️ [gateway/ws] {"subsystem":"gateway/ws"} | ⇄ res ✓ agent 188ms runId=announce:v1:agent:main:subagent:7f49d3c1-c985-435d-a6ca-3ba4a2b50f38:f3be6a37-957f-40f4-9e18-4e70db552fbc conn=79ec8452…5e0c id=d893eb0e…c232
+[14:20:09.177] ℹ️ [openclaw] [skill-retriever] Received response, status: 200
+[14:20:09.182] ℹ️ [openclaw] [skill-retriever] [DEBUG] After filtering uninstalled: 2, ids: metabase-metabase-docs-write, summarize
+[14:20:09.183] ℹ️ [openclaw] [skill-retriever] [RESULT] Found 2 skills, building context...
+[14:20:09.199] ℹ️ [openclaw] [xiaoyiprovider] input messages count: 107
+[14:20:09.200] ℹ️ [openclaw] [xiaoyiprovider] system prompt length: 54387
+[14:20:09.202] ℹ️ [openclaw] [xiaoyiprovider] system prompt optimized: 54387 -> 52622
+[14:20:10.102] ℹ️ [openclaw] [WS-RECV] Raw message frame, size: 772 characters
+[14:20:10.104] ℹ️ [openclaw] [WS-RECV] Text: 好***啊
+[14:20:10.105] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [MONITOR-HANDLER] ####### messageHandler triggered: sessionId=1427f60f9db140458ffc0961da4decd3, messageId=fcd20316-fa64-4308-80f1-eff9a26f4c36&177&00c7&0 #######
+[14:20:10.107] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 🔒 Locked taskId for first message
+[14:20:10.109] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 📌 Extracted push_id from user message
+[14:20:10.110] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 📱 Extracted deviceType from user message: phone
+[14:20:10.112] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | xy: resolved route accountId=default, sessionKey=agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:20:10.114] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [STATUS] Sending initial status update for session 1427f60f9db140458ffc0961da4decd3
+[14:20:10.116] ℹ️ [openclaw] [A2A_STATUS] 📤 Sending A2A status-update:
+[14:20:10.117] ℹ️ [openclaw] [A2A_STATUS]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&177&00c7&0
+[14:20:10.118] ℹ️ [openclaw] [A2A_STATUS]   - text: "任务正在处理中，请稍候~"
+[14:20:10.120] ℹ️ [openclaw] Downloaded files: []
+[14:20:10.122] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCHER] 🎯 Creating reply dispatcher
+[14:20:10.124] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCHER]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&177&00c7&0
+[14:20:10.125] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DISPATCHER-CREATE] ******* Creating dispatcher *******
+[14:20:10.127] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DISPATCHER-CREATE]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&177&00c7&0
+[14:20:10.128] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [DISPATCHER-CREATE]   - isSteerFollower: false
+[14:20:10.130] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [STATUS INTERVAL] Starting interval for session 1427f60f9db140458ffc0961da4decd3
+[14:20:10.131] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCHER] ✅ Status interval started for first message
+[14:20:10.133] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH] ⏳ withReplyDispatcher starting, sessionKey=agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:20:10.134] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH] ⏳ dispatchReplyFromConfig starting...
+[14:20:10.136] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - sessionKey: agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:20:10.137] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - provider: xiaoyi-channel
+[14:20:10.138] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - surface: xiaoyi-channel
+[14:20:10.140] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - from: 1427f60f9db140458ffc0961da4decd3
+[14:20:10.141] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - body length: 114
+[14:20:10.539] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH] ✅ dispatchReplyFromConfig returned
+[14:20:10.541] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT-DISPATCH]   - result: {"queuedFinal":false,"counts":{"tool":0,"block":0,"final":0}}
+[14:20:10.543] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] Reply idle
+[14:20:10.545] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - sessionId: 1427f60f9db140458ffc0961da4decd3
+[14:20:10.546] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&177&00c7&0
+[14:20:10.548] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - isSteerFollower: false
+[14:20:10.550] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - hasSentResponse: false
+[14:20:10.551] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE]   - finalSent: false
+[14:20:10.553] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ⏳ hasSentResponse=false, waiting 10s for potential delayed LLM response...
+[14:20:10.555] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 🏁 onSettled called for session: agent:main:direct:1427f60f9db140458ffc0961da4decd3
+[14:20:10.556] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT]   - isSecondMessage: false
+[14:20:10.558] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] 🔓 Unlocked taskId (first message completed)
+[14:20:10.559] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] ✅ Cleanup completed
+[14:20:10.561] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [BOT] ✅ Dispatcher completed for session: 1427f60f9db140458ffc0961da4decd3
+[14:20:10.562] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | xy: dispatch complete (session=1427f60f9db140458ffc0961da4decd3)
+[14:20:11.621] ℹ️ [openclaw] [xiaoyiprovider] first content event received, switching to streaming mode
+[14:20:12.184] ℹ️ [openclaw] [xiaoyiprovider] stream completed, usage: input=43467 output=12
+[14:20:12.188] ℹ️ [openclaw] [xiaoyiprovider] input messages count: 109
+[14:20:12.190] ℹ️ [openclaw] [xiaoyiprovider] system prompt length: 54387
+[14:20:12.191] ℹ️ [openclaw] [xiaoyiprovider] system prompt optimized: 54387 -> 52622
+[14:20:13.339] ℹ️ [openclaw] [xiaoyiprovider] first content event received, switching to streaming mode
+[14:20:13.866] ℹ️ [openclaw] [xiaoyiprovider] stream completed, usage: input=43694 output=10
+[14:20:14.013] ℹ️ [openclaw] [xyOutbound.resolveTarget] Target "1427f60f9db140458ffc0961da4decd3" missing taskId, looking up session context
+[14:20:14.014] ℹ️ [openclaw] [xyOutbound.resolveTarget] Could not find matching session context for "1427f60f9db140458ffc0961da4decd3"
+[14:20:14.016] ℹ️ [openclaw] [xyOutbound.resolveTarget] Using provided target: 1427f60f9db140458ffc0961da4decd3
+[14:20:14.143] ℹ️ [openclaw] 子Agent的10秒测试任务已完成！✅
+[14:20:14.145] ℹ️ [openclaw] [xyOutbound.sendText] Saving push data to local storage...
+[14:20:14.149] ℹ️ [openclaw] [xyOutbound.sendText] ✅ Push data saved with ID: 7896920f-ad84-4bdc-b
+[14:20:14.150] ℹ️ [openclaw] [xyOutbound.sendText] Loading all pushIds...
+[14:20:14.154] ℹ️ [openclaw] [xyOutbound.sendText] ✅ Loaded 1 pushIds
+[14:20:14.155] ℹ️ [openclaw] [xyOutbound.sendText] 📤 Broadcasting to 1 pushId(s)...
+[14:20:14.157] ℹ️ [openclaw] [PUSH] 📤 Preparing to send push message
+[14:20:14.158] ℹ️ [openclaw] [PUSH]   - Using pushId: 530a5b8ade0c3ffed5e9...
+[14:20:14.345] ℹ️ [openclaw] [PUSH] 📥 Response received
+[14:20:14.346] ℹ️ [openclaw] [PUSH]   - HTTP Status: 401 Unauthorized
+[14:20:14.348] ℹ️ [openclaw] [PUSH] ❌ Push request failed
+[14:20:14.350] ℹ️ [openclaw] [PUSH]   - HTTP Status: 401
+[14:20:14.351] ℹ️ [openclaw] [PUSH] ❌ Failed to send push message
+[14:20:14.352] ℹ️ [openclaw] [PUSH]   - Error name: Error
+[14:20:14.354] ℹ️ [openclaw] [PUSH]   - Error message: Push failed: HTTP 401 - {"code":"authFailed","desc":"Permission denied with the request resource"}
+[14:20:14.355] ❌ [openclaw] [xyOutbound.sendText] ❌ Failed to send to pushId: 530a5b8ade0c3ffed5e9... Error: Push failed: HTTP 401 - {"code":"authFailed","desc":"Permission denied with the request resource"}
+    at XYPushService.sendPush (file:///home/sandbox/.openclaw/extensions/xiaoyi-channel/dist/src/push.js:89:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async sendText (file:///home/sandbox/.openclaw/extensions/xiaoyi-channel/dist/src/outbound.js:143:17)
+    at async sendTextChunks (file:///home/sandbox/openclaw/node_modules/openclaw/dist/deliver-CjBTircm.js:1111:17)
+    at async deliverOutboundPayloadsCore (file:///home/sandbox/openclaw/node_modules/openclaw/dist/deliver-CjBTircm.js:1192:10)
+    at async deliverOutboundPayloads (file:///home/sandbox/openclaw/node_modules/openclaw/dist/deliver-CjBTircm.js:1061:19)
+    at async deliverAgentCommandResult (file:///home/sandbox/openclaw/node_modules/openclaw/dist/agent-command-BUw17dbz.js:709:23)
+    at async agentCommandInternal (file:///home/sandbox/openclaw/node_modules/openclaw/dist/agent-command-BUw17dbz.js:1446:10)
+    at async agentCommandFromIngress (file:///home/sandbox/openclaw/node_modules/openclaw/dist/agent-command-BUw17dbz.js:1470:9)
+[14:20:14.478] ℹ️ [openclaw] 好的！还有其他需要帮忙的吗？😊
+[14:20:14.480] ℹ️ [openclaw] [xyOutbound.sendText] Saving push data to local storage...
+[14:20:14.483] ℹ️ [openclaw] [xyOutbound.sendText] ✅ Push data saved with ID: 1a89e81d-dbb5-4d6d-9
+[14:20:14.485] ℹ️ [openclaw] [xyOutbound.sendText] Loading all pushIds...
+[14:20:14.488] ℹ️ [openclaw] [xyOutbound.sendText] ✅ Loaded 1 pushIds
+[14:20:14.489] ℹ️ [openclaw] [xyOutbound.sendText] 📤 Broadcasting to 1 pushId(s)...
+[14:20:14.491] ℹ️ [openclaw] [PUSH] 📤 Preparing to send push message
+[14:20:14.492] ℹ️ [openclaw] [PUSH]   - Using pushId: 530a5b8ade0c3ffed5e9...
+[14:20:14.602] ℹ️ [openclaw] [PUSH] 📥 Response received
+[14:20:14.604] ℹ️ [openclaw] [PUSH]   - HTTP Status: 401 Unauthorized
+[14:20:14.605] ℹ️ [openclaw] [PUSH] ❌ Push request failed
+[14:20:14.607] ℹ️ [openclaw] [PUSH]   - HTTP Status: 401
+[14:20:14.608] ℹ️ [openclaw] [PUSH] ❌ Failed to send push message
+[14:20:14.610] ℹ️ [openclaw] [PUSH]   - Error name: Error
+[14:20:14.611] ℹ️ [openclaw] [PUSH]   - Error message: Push failed: HTTP 401 - {"code":"authFailed","desc":"Permission denied with the request resource"}
+[14:20:14.613] ❌ [openclaw] [xyOutbound.sendText] ❌ Failed to send to pushId: 530a5b8ade0c3ffed5e9... Error: Push failed: HTTP 401 - {"code":"authFailed","desc":"Permission denied with the request resource"}
+    at XYPushService.sendPush (file:///home/sandbox/.openclaw/extensions/xiaoyi-channel/dist/src/push.js:89:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async sendText (file:///home/sandbox/.openclaw/extensions/xiaoyi-channel/dist/src/outbound.js:143:17)
+    at async sendTextChunks (file:///home/sandbox/openclaw/node_modules/openclaw/dist/deliver-CjBTircm.js:1111:17)
+    at async deliverOutboundPayloadsCore (file:///home/sandbox/openclaw/node_modules/openclaw/dist/deliver-CjBTircm.js:1192:10)
+    at async deliverOutboundPayloads (file:///home/sandbox/openclaw/node_modules/openclaw/dist/deliver-CjBTircm.js:1061:19)
+    at async deliverAgentCommandResult (file:///home/sandbox/openclaw/node_modules/openclaw/dist/agent-command-BUw17dbz.js:709:23)
+    at async agentCommandInternal (file:///home/sandbox/openclaw/node_modules/openclaw/dist/agent-command-BUw17dbz.js:1446:10)
+    at async agentCommandFromIngress (file:///home/sandbox/openclaw/node_modules/openclaw/dist/agent-command-BUw17dbz.js:1470:9)
+[14:20:14.707] ℹ️ [gateway/ws] {"subsystem":"gateway/ws"} | ⇄ res ✗ sessions.patch 67ms errorCode=INVALID_REQUEST errorMessage=label already in use: 10秒测试任务 conn=d2df77a0…f16c id=b9e772ba…cf89
+[14:20:20.557] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ⏳ After wait - hasSentResponse: false, finalSent: false
+[14:20:20.559] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ⚠️  ERROR TRIGGER DETECTED! hasSentResponse=false, finalSent=false, isSteerFollower=false
+[14:20:20.561] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ⚠️  ERROR TRIGGER - accumulatedText.length=0, sessionId=1427f60f9db140458ffc0961da4decd3
+[14:20:20.562] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ⚠️  ERROR TRIGGER - Current taskId from TaskManager: fcd20316-fa64-4308-80f1-eff9a26f4c36&177&00c7&0
+[14:20:20.564] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ⚠️  ERROR TRIGGER - This usually means deliver() was never called or failed
+[14:20:20.566] ℹ️ [openclaw] [A2A_STATUS] 📤 Sending A2A status-update:
+[14:20:20.567] ℹ️ [openclaw] [A2A_STATUS]   - taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&177&00c7&0
+[14:20:20.569] ℹ️ [openclaw] [A2A_STATUS]   - text: "任务处理中断了~"
+[14:20:20.570] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ Sent failure status update
+[14:20:20.572] ℹ️ [openclaw] [A2A_RESPONSE] ⚠️ Including error code: 99921111
+[14:20:20.574] ℹ️ [openclaw] [A2A_RESPONSE] 📤 Sending A2A artifact-update response: taskId: fcd20316-fa64-4308-80f1-eff9a26f4c36&177&00c7&0
+[14:20:20.575] ℹ️ [openclaw] [A2A_RESPONSE]   - append: false
+[14:20:20.577] ℹ️ [openclaw] [A2A_RESPONSE]   - final: true
+[14:20:20.578] ℹ️ [openclaw] [A2A_RESPONSE]   - text: 任务执行异***，请重试~
+[14:20:20.580] ℹ️ [openclaw] [A2A_RESPONSE]   - files count: 0
+[14:20:20.581] ℹ️ [openclaw] [A2A_RESPONSE] ✅ Message sent successfully
+[14:20:20.582] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [ON_IDLE] ✅ Sent error response with code: 99921111
+[14:20:20.584] ℹ️ [gateway/channels/xiaoyi-channel] {"subsystem":"gateway/channels/xiaoyi-channel"} | [STATUS INTERVAL] Stopping interval for session 1427f60f9db140458ffc0961da4decd3
